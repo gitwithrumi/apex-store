@@ -233,6 +233,13 @@ transition: .5s all ease;
     object-position: center;
     border-radius: 30px;
 }
+#home-2 video{
+    height: 500px;
+    width: 440px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 30px;
+}
 
   /*** ABOVE THE FOLD END ***/
 
@@ -601,6 +608,14 @@ transition: .5s all ease;
 
   /*** ORDER CONFIRMATION PAGE ***/
 
+  
+  /*** RETURN POLICY START ***/
+
+  #return-policy{
+    padding-top: 130px;
+  }
+
+  /*** RETURN POLICY END ***/
 
   /*** RESPONSIVENESS START ***/
 
@@ -846,6 +861,14 @@ transition: all 0.25s ease;
 }
 #home-2 img{
     height: 50vh;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+#home-2 video{
+    height: 60vh;
     width: 100%;
     object-fit: cover;
     object-position: center;
@@ -1171,6 +1194,14 @@ width: 100%;
 
   /*** ORDER CONFIRMATION PAGE ***/
 
+  /*** RETURN POLICY START ***/
+
+  #return-policy{
+    padding-top: 100px;
+  }
+
+  /*** RETURN POLICY END ***/
+
   }
   @media (max-width: 900px) and (min-width: 551px) {
     
@@ -1308,7 +1339,7 @@ transition: all 0.25s ease;
   #home:first-child{
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: center;
     justify-content: space-between;
     padding: 0 20px;
     padding-top: 100px;
@@ -1321,8 +1352,8 @@ transition: all 0.25s ease;
 #home{
   display: flex;
   flex-direction: column;
-  align-items: start;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
   padding-top: 40px;
   width: 100%;
 }
@@ -1336,6 +1367,14 @@ transition: all 0.25s ease;
 }
 #home-2 img{
     height: 50vh;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+#home-2 video{
+    height: 60vh;
     width: 100%;
     object-fit: cover;
     object-position: center;
