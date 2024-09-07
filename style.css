@@ -497,17 +497,18 @@ transition: .5s all ease;
     justify-content: space-around;
   }
   #blog-item{
-    height: 50vh;
+    height: 100%;
     width: 40vw;
     background:var(--accent-background);
     padding-bottom: 10px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     border-radius: 30px;
   }
   #blog-item video{
-    height: 250px;
+    height: 100%;
     width: 100%;
     margin-bottom: 20px;
     object-fit: cover;
