@@ -243,6 +243,41 @@ transition: .5s all ease;
 
   /*** ABOVE THE FOLD END ***/
 
+  /*** ABOVE THE FOLD PRODUCTS START ***/
+
+#products-home:first-child{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding-top: 150px;
+    width: 100%;
+    height: 100vh;
+}
+#products-home{
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  padding-top: 40px;
+  width: 100%;
+}
+#products-home--1 h1{
+    width: 90%;
+    margin-bottom: 50px;
+}
+#products-home--1 p{
+    width: 90%;
+    margin-bottom: 60px;
+}
+#products-home--2 img{
+    height: 200px;
+    width: 340px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 30px;
+}
+
+  /*** ABOVE THE FOLD PRODUCTS END ***/
+
   /*** FEATURES SECTION START ***/
 
 #features h2{
@@ -879,6 +914,48 @@ transition: all 0.25s ease;
 
   /*** ABOVE THE FOLD END ***/
 
+  /*** ABOVE THE FOLD PRODUCT START ***/
+
+  #products-home:first-child{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    padding: 0 20px;
+    padding-top: 100px;
+    width: 100%;
+    height: 100%;
+}
+#products-home:first-child h1{
+  font-size: 18px;
+}
+#products-home{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  padding-top: 40px;
+  width: 100%;
+}
+#products-home--1 h1{
+    width: 100%;
+    margin-bottom: 15px;
+}
+#products-home--1 p{
+    width: 100%;
+    margin-bottom: 20px;
+}
+#products-home--2 img{
+    height: 25vh;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+  /*** ABOVE THE FOLD PRODUCT END ***/
+
   
   /*** FEATURES SECTION START ***/
 
@@ -1384,6 +1461,48 @@ transition: all 0.25s ease;
 }
 
   /*** ABOVE THE FOLD END ***/
+
+  /*** ABOVE THE FOLD PRODUCTS START ***/
+
+  #products-home:first-child{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    padding-top: 100px;
+    width: 100%;
+    height: 100%;
+}
+#products-home:first-child h1{
+  font-size: 24px;
+}
+#products-home{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+  width: 100%;
+}
+#products-home--1 h1{
+    width: 100%;
+    margin-bottom: 15px;
+}
+#products-home--1 p{
+    width: 100%;
+    margin-bottom: 20px;
+}
+#products-home--2 img{
+    height: 25vh;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+  /*** ABOVE THE FOLD PRODUCTS END ***/
 
   
   /*** FEATURES SECTION START ***/
