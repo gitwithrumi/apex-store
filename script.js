@@ -2,19 +2,19 @@
   // Define the pricing data based on options
   const pricingData = {
     "All Windows": {
-      "100% Tinted": { cutPrice: 4999, price: 3799 },
-      "50% Tinted": { cutPrice: 4999, price: 3799 },
-      "25% Tinted": { cutPrice: 4999, price: 3799 }
+      "100% Tinted": { cutPrice: 4999, price: 4000 },
+      "50% Tinted": { cutPrice: 4999, price: 4000 },
+      "25% Tinted": { cutPrice: 4999, price: 4000 }
     },
     "2 Front Windows": {
-      "100% Tinted": { cutPrice: 3499, price: 2389 },
-      "50% Tinted": { cutPrice: 3499, price: 2389 },
-      "25% Tinted": { cutPrice: 3499, price: 2389 }
+      "100% Tinted": { cutPrice: 3499, price: 2500 },
+      "50% Tinted": { cutPrice: 3499, price: 2500 },
+      "25% Tinted": { cutPrice: 3499, price: 2500 }
     },
     "2 Back Windows": {
-      "100% Tinted": { cutPrice: 3499, price: 2389 },
-      "50% Tinted": { cutPrice: 3499, price: 2389 },
-      "25% Tinted": { cutPrice: 3499, price: 2389 }
+      "100% Tinted": { cutPrice: 3499, price: 2500 },
+      "50% Tinted": { cutPrice: 3499, price: 2500 },
+      "25% Tinted": { cutPrice: 3499, price: 2500 }
     }
   };
 
